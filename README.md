@@ -6,7 +6,7 @@ Türkiye'deki tüm güncel araç marka ve modellerini listeleyen, geliştiricile
 
 ## 🌟 Özellikler
 
-- 📦 **Güncel Veritabanı:** 45 popüler otomobil/araç markası ve bunlara bağlı **1.082 alt model** verisi (OtoSOR ve TSB veritabanlarının harmanlanmış güncel hali).
+- 📦 **Güncel Veritabanı:** 45 popüler otomobil/araç markası ve bunlara bağlı **1.082 alt model** verisi.
 - 🛠️ **Çoklu Kod Jeneratörü:** Geliştiriciler için farklı formatlarda anında dışa aktarma (Export) desteği:
   - **HTML Select:** Marka seçildiğinde modelleri dinamik olarak dolduran, kullanıma hazır Vanilla JS ve CSS destekli açılır kutu kodu.
   - **JSON:** API'ler veya veri saklama için saf JSON yapısı.
