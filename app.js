@@ -140,13 +140,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const mName = document.createElement('span');
         mName.textContent = model.name;
-
-        const mType = document.createElement('span');
-        mType.className = 'model-body-type';
-        mType.textContent = model.bodyType || 'Bilinmiyor';
-
         item.appendChild(mName);
-        item.appendChild(mType);
+
+        if (model.bodyType) {
+          const mType = document.createElement('span');
+          mType.className = 'model-body-type';
+          mType.textContent = model.bodyType;
+          item.appendChild(mType);
+        }
         modelsListDiv.appendChild(item);
       });
 
