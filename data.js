@@ -41,11 +41,17 @@ const CAR_DATA = {
       },
       {
         "name": "Giulietta",
-        "slug": "alfa-romeo-giulietta"
+        "slug": "alfa-romeo-giulietta",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Gt",
         "slug": "alfa-romeo-gt"
+      },
+      {
+        "name": "Junior",
+        "slug": "alfa-romeo-junior",
+        "bodyType": "SUV"
       },
       {
         "name": "Mito",
@@ -58,6 +64,11 @@ const CAR_DATA = {
       {
         "name": "Stelvio",
         "slug": "alfa-romeo-stelvio"
+      },
+      {
+        "name": "Tonale",
+        "slug": "alfa-romeo-tonale",
+        "bodyType": "SUV"
       }
     ]
   },
@@ -117,7 +128,8 @@ const CAR_DATA = {
     "models": [
       {
         "name": "A1",
-        "slug": "audi-a1"
+        "slug": "audi-a1",
+        "bodyType": "Hatchback"
       },
       {
         "name": "A2",
@@ -125,15 +137,18 @@ const CAR_DATA = {
       },
       {
         "name": "Q2",
-        "slug": "audi-q2"
+        "slug": "audi-q2",
+        "bodyType": "SUV"
       },
       {
         "name": "A3",
-        "slug": "audi-a3"
+        "slug": "audi-a3",
+        "bodyType": "Cabrio"
       },
       {
         "name": "Q3",
-        "slug": "audi-q3"
+        "slug": "audi-q3",
+        "bodyType": "SUV"
       },
       {
         "name": "Rs3",
@@ -141,11 +156,13 @@ const CAR_DATA = {
       },
       {
         "name": "S3",
-        "slug": "audi-s3"
+        "slug": "audi-s3",
+        "bodyType": "Hatchback"
       },
       {
         "name": "A4",
-        "slug": "audi-a4"
+        "slug": "audi-a4",
+        "bodyType": "Sedan"
       },
       {
         "name": "Q4",
@@ -161,7 +178,8 @@ const CAR_DATA = {
       },
       {
         "name": "A5",
-        "slug": "audi-a5"
+        "slug": "audi-a5",
+        "bodyType": "Hatchback"
       },
       {
         "name": "A5Sportback",
@@ -169,7 +187,8 @@ const CAR_DATA = {
       },
       {
         "name": "Q5",
-        "slug": "audi-q5"
+        "slug": "audi-q5",
+        "bodyType": "SUV"
       },
       {
         "name": "Q5Sportback",
@@ -181,7 +200,8 @@ const CAR_DATA = {
       },
       {
         "name": "S5",
-        "slug": "audi-s5"
+        "slug": "audi-s5",
+        "bodyType": "Coupe"
       },
       {
         "name": "Sq5",
@@ -189,7 +209,8 @@ const CAR_DATA = {
       },
       {
         "name": "A6",
-        "slug": "audi-a6"
+        "slug": "audi-a6",
+        "bodyType": "Sedan"
       },
       {
         "name": "Rs6",
@@ -205,7 +226,8 @@ const CAR_DATA = {
       },
       {
         "name": "Q7",
-        "slug": "audi-q7"
+        "slug": "audi-q7",
+        "bodyType": "SUV"
       },
       {
         "name": "Rs7",
@@ -252,6 +274,11 @@ const CAR_DATA = {
         "slug": "audi-rs"
       },
       {
+        "name": "TT",
+        "slug": "audi-tt",
+        "bodyType": "Coupe"
+      },
+      {
         "name": "Tt",
         "slug": "audi-tt"
       },
@@ -274,12 +301,23 @@ const CAR_DATA = {
     "brandSlug": "bmw",
     "models": [
       {
+        "name": "1 Serisi",
+        "slug": "bmw-1-serisi",
+        "bodyType": "Hatchback"
+      },
+      {
         "name": "1M",
         "slug": "bmw-1m"
       },
       {
         "name": "X1",
-        "slug": "bmw-x1"
+        "slug": "bmw-x1",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "2 Serisi",
+        "slug": "bmw-2-serisi",
+        "bodyType": "Cabrio"
       },
       {
         "name": "M2",
@@ -287,7 +325,13 @@ const CAR_DATA = {
       },
       {
         "name": "X2",
-        "slug": "bmw-x2"
+        "slug": "bmw-x2",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "3 Serisi",
+        "slug": "bmw-3-serisi",
+        "bodyType": "Sedan"
       },
       {
         "name": "M3",
@@ -295,7 +339,8 @@ const CAR_DATA = {
       },
       {
         "name": "X3",
-        "slug": "bmw-x3"
+        "slug": "bmw-x3",
+        "bodyType": "SUV"
       },
       {
         "name": "i3",
@@ -310,6 +355,11 @@ const CAR_DATA = {
         "slug": "bmw-ix3"
       },
       {
+        "name": "4 Serisi",
+        "slug": "bmw-4-serisi",
+        "bodyType": "Cabrio"
+      },
+      {
         "name": "M4",
         "slug": "bmw-m4"
       },
@@ -322,12 +372,23 @@ const CAR_DATA = {
         "slug": "bmw-z4"
       },
       {
+        "name": "5 Serisi",
+        "slug": "bmw-5-serisi",
+        "bodyType": "Sedan"
+      },
+      {
         "name": "M5",
         "slug": "bmw-m5"
       },
       {
         "name": "X5",
-        "slug": "bmw-x5"
+        "slug": "bmw-x5",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "6 Serisi",
+        "slug": "bmw-6-serisi",
+        "bodyType": "Coupe"
       },
       {
         "name": "M6",
@@ -335,7 +396,13 @@ const CAR_DATA = {
       },
       {
         "name": "X6",
-        "slug": "bmw-x6"
+        "slug": "bmw-x6",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "7 Serisi",
+        "slug": "bmw-7-serisi",
+        "bodyType": "Sedan"
       },
       {
         "name": "X7",
@@ -771,13 +838,25 @@ const CAR_DATA = {
       }
     ]
   },
+  "byd": {
+    "brandName": "Byd",
+    "brandSlug": "byd",
+    "models": [
+      {
+        "name": "Seal U DM-I",
+        "slug": "byd-seal-u-dm-i",
+        "bodyType": "SUV"
+      }
+    ]
+  },
   "chevrolet": {
     "brandName": "Chevrolet",
     "brandSlug": "chevrolet",
     "models": [
       {
         "name": "Aveo",
-        "slug": "chevrolet-aveo"
+        "slug": "chevrolet-aveo",
+        "bodyType": "Sedan"
       },
       {
         "name": "Camaro",
@@ -789,7 +868,8 @@ const CAR_DATA = {
       },
       {
         "name": "Captiva",
-        "slug": "chevrolet-captiva"
+        "slug": "chevrolet-captiva",
+        "bodyType": "SUV"
       },
       {
         "name": "Corvette",
@@ -797,7 +877,8 @@ const CAR_DATA = {
       },
       {
         "name": "Cruze",
-        "slug": "chevrolet-cruze"
+        "slug": "chevrolet-cruze",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Epica",
@@ -825,7 +906,8 @@ const CAR_DATA = {
       },
       {
         "name": "Lacetti",
-        "slug": "chevrolet-lacetti"
+        "slug": "chevrolet-lacetti",
+        "bodyType": "Sedan"
       },
       {
         "name": "Orlando",
@@ -841,7 +923,8 @@ const CAR_DATA = {
       },
       {
         "name": "Spark",
-        "slug": "chevrolet-spark"
+        "slug": "chevrolet-spark",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Suburban",
@@ -932,12 +1015,13 @@ const CAR_DATA = {
     ]
   },
   "citroen": {
-    "brandName": "Citroën",
+    "brandName": "Citroen",
     "brandSlug": "citroen",
     "models": [
       {
         "name": "C1",
-        "slug": "citroen-c1"
+        "slug": "citroen-c1",
+        "bodyType": "Hatchback"
       },
       {
         "name": "C2",
@@ -945,7 +1029,13 @@ const CAR_DATA = {
       },
       {
         "name": "C3",
-        "slug": "citroen-c3"
+        "slug": "citroen-c3",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "C3 AirCross",
+        "slug": "citroen-c3-aircross",
+        "bodyType": "SUV"
       },
       {
         "name": "C3Aircross",
@@ -964,8 +1054,24 @@ const CAR_DATA = {
         "slug": "citroen-ds3"
       },
       {
+        "name": "e-C3",
+        "slug": "citroen-e-c3",
+        "bodyType": "Hatchback"
+      },
+      {
         "name": "C4",
-        "slug": "citroen-c4"
+        "slug": "citroen-c4",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "C4 Cactus",
+        "slug": "citroen-c4-cactus",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "C4 X",
+        "slug": "citroen-c4-x",
+        "bodyType": "Sedan"
       },
       {
         "name": "Ds4",
@@ -985,7 +1091,13 @@ const CAR_DATA = {
       },
       {
         "name": "C5",
-        "slug": "citroen-c5"
+        "slug": "citroen-c5",
+        "bodyType": "Sedan"
+      },
+      {
+        "name": "C5 AirCross",
+        "slug": "citroen-c5-aircross",
+        "bodyType": "SUV"
       },
       {
         "name": "C5Aircross",
@@ -1017,7 +1129,8 @@ const CAR_DATA = {
       },
       {
         "name": "Berlingo",
-        "slug": "citroen-berlingo"
+        "slug": "citroen-berlingo",
+        "bodyType": "Kombi"
       },
       {
         "name": "C-Crosser",
@@ -1029,7 +1142,8 @@ const CAR_DATA = {
       },
       {
         "name": "C-Elysee",
-        "slug": "citroen-c-elysee"
+        "slug": "citroen-c-elysee",
+        "bodyType": "Sedan"
       },
       {
         "name": "Grand Picasso",
@@ -1045,11 +1159,54 @@ const CAR_DATA = {
       },
       {
         "name": "Nemo",
-        "slug": "citroen-nemo"
+        "slug": "citroen-nemo",
+        "bodyType": "Kombi"
+      },
+      {
+        "name": "Spacetourer",
+        "slug": "citroen-spacetourer",
+        "bodyType": "Kombivan"
       },
       {
         "name": "Xsara",
         "slug": "citroen-xsara"
+      }
+    ]
+  },
+  "cupra": {
+    "brandName": "Cupra",
+    "brandSlug": "cupra",
+    "models": [
+      {
+        "name": "Formentor",
+        "slug": "cupra-formentor",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Leon",
+        "slug": "cupra-leon",
+        "bodyType": "Hatchback"
+      }
+    ]
+  },
+  "ds-automobiles": {
+    "brandName": "DS Automobiles",
+    "brandSlug": "ds-automobiles",
+    "models": [
+      {
+        "name": "DS4",
+        "slug": "ds-automobiles-ds4",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "DS7",
+        "slug": "ds-automobiles-ds7",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "DS7 Crossback",
+        "slug": "ds-automobiles-ds7-crossback",
+        "bodyType": "SUV"
       }
     ]
   },
@@ -1059,15 +1216,23 @@ const CAR_DATA = {
     "models": [
       {
         "name": "Dokker",
-        "slug": "dacia-dokker"
+        "slug": "dacia-dokker",
+        "bodyType": "Kombi"
       },
       {
         "name": "Duster",
-        "slug": "dacia-duster"
+        "slug": "dacia-duster",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Jogger",
+        "slug": "dacia-jogger",
+        "bodyType": "Station Wagon"
       },
       {
         "name": "Lodgy",
-        "slug": "dacia-lodgy"
+        "slug": "dacia-lodgy",
+        "bodyType": "MPV"
       },
       {
         "name": "Logan",
@@ -1075,7 +1240,13 @@ const CAR_DATA = {
       },
       {
         "name": "Sandero",
-        "slug": "dacia-sandero"
+        "slug": "dacia-sandero",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "Sandero Stepway",
+        "slug": "dacia-sandero-stepway",
+        "bodyType": "SUV"
       }
     ]
   },
@@ -1171,7 +1342,8 @@ const CAR_DATA = {
     "models": [
       {
         "name": "500",
-        "slug": "fiat-500"
+        "slug": "fiat-500",
+        "bodyType": "Hatchback"
       },
       {
         "name": "500C",
@@ -1179,11 +1351,13 @@ const CAR_DATA = {
       },
       {
         "name": "500L",
-        "slug": "fiat-500l"
+        "slug": "fiat-500l",
+        "bodyType": "MPV"
       },
       {
         "name": "500X",
-        "slug": "fiat-500x"
+        "slug": "fiat-500x",
+        "bodyType": "SUV"
       },
       {
         "name": "Abart",
@@ -1192,6 +1366,11 @@ const CAR_DATA = {
       {
         "name": "Abarth",
         "slug": "fiat-abarth"
+      },
+      {
+        "name": "Albea",
+        "slug": "fiat-albea",
+        "bodyType": "Sedan"
       },
       {
         "name": "Anniversario",
@@ -1214,6 +1393,11 @@ const CAR_DATA = {
         "slug": "fiat-cult"
       },
       {
+        "name": "Doblo Combi",
+        "slug": "fiat-doblo-combi",
+        "bodyType": "Kombi"
+      },
+      {
         "name": "Dolcevita",
         "slug": "fiat-dolcevita"
       },
@@ -1224,6 +1408,16 @@ const CAR_DATA = {
       {
         "name": "E",
         "slug": "fiat-e"
+      },
+      {
+        "name": "Egea",
+        "slug": "fiat-egea",
+        "bodyType": "Station Wagon"
+      },
+      {
+        "name": "Fiorino Combi",
+        "slug": "fiat-fiorino-combi",
+        "bodyType": "Kombi"
       },
       {
         "name": "Freemont",
@@ -1254,6 +1448,11 @@ const CAR_DATA = {
         "slug": "fiat-idea"
       },
       {
+        "name": "Linea",
+        "slug": "fiat-linea",
+        "bodyType": "Sedan"
+      },
+      {
         "name": "Lounge",
         "slug": "fiat-lounge"
       },
@@ -1271,7 +1470,8 @@ const CAR_DATA = {
       },
       {
         "name": "Punto",
-        "slug": "fiat-punto"
+        "slug": "fiat-punto",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Rockstar",
@@ -1279,7 +1479,8 @@ const CAR_DATA = {
       },
       {
         "name": "Scudo",
-        "slug": "fiat-scudo"
+        "slug": "fiat-scudo",
+        "bodyType": "Kombivan"
       },
       {
         "name": "Sedici",
@@ -1300,6 +1501,11 @@ const CAR_DATA = {
       {
         "name": "Strada",
         "slug": "fiat-strada"
+      },
+      {
+        "name": "Ulysse",
+        "slug": "fiat-ulysse",
+        "bodyType": "Kombivan"
       },
       {
         "name": "Vintage",
@@ -1377,7 +1583,8 @@ const CAR_DATA = {
       },
       {
         "name": "B-Max",
-        "slug": "ford-b-max"
+        "slug": "ford-b-max",
+        "bodyType": "MPV"
       },
       {
         "name": "Bronco",
@@ -1389,7 +1596,13 @@ const CAR_DATA = {
       },
       {
         "name": "C-Max",
-        "slug": "ford-c-max"
+        "slug": "ford-c-max",
+        "bodyType": "MPV"
+      },
+      {
+        "name": "EcoSport",
+        "slug": "ford-ecosport",
+        "bodyType": "SUV"
       },
       {
         "name": "Ecosport",
@@ -1401,11 +1614,13 @@ const CAR_DATA = {
       },
       {
         "name": "Fiesta",
-        "slug": "ford-fiesta"
+        "slug": "ford-fiesta",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Focus",
-        "slug": "ford-focus"
+        "slug": "ford-focus",
+        "bodyType": "Station Wagon"
       },
       {
         "name": "Fusion",
@@ -1425,11 +1640,13 @@ const CAR_DATA = {
       },
       {
         "name": "Kuga",
-        "slug": "ford-kuga"
+        "slug": "ford-kuga",
+        "bodyType": "SUV"
       },
       {
         "name": "Mondeo",
-        "slug": "ford-mondeo"
+        "slug": "ford-mondeo",
+        "bodyType": "Sedan"
       },
       {
         "name": "My",
@@ -1437,11 +1654,13 @@ const CAR_DATA = {
       },
       {
         "name": "Puma",
-        "slug": "ford-puma"
+        "slug": "ford-puma",
+        "bodyType": "SUV"
       },
       {
         "name": "Ranger",
-        "slug": "ford-ranger"
+        "slug": "ford-ranger",
+        "bodyType": "Pick-Up"
       },
       {
         "name": "S-Max",
@@ -1466,6 +1685,16 @@ const CAR_DATA = {
       {
         "name": "Tourneo",
         "slug": "ford-tourneo"
+      },
+      {
+        "name": "Tourneo Connect",
+        "slug": "ford-tourneo-connect",
+        "bodyType": "Kombi"
+      },
+      {
+        "name": "Tourneo Courier",
+        "slug": "ford-tourneo-courier",
+        "bodyType": "Kombi"
       },
       {
         "name": "Tourneoconnect",
@@ -1502,6 +1731,11 @@ const CAR_DATA = {
       {
         "name": "Transit",
         "slug": "ford-transit"
+      },
+      {
+        "name": "Transit Connect",
+        "slug": "ford-transit-connect",
+        "bodyType": "Kombi"
       },
       {
         "name": "Transitconnectvantrendmca",
@@ -1547,19 +1781,27 @@ const CAR_DATA = {
       },
       {
         "name": "Accord",
-        "slug": "honda-accord"
+        "slug": "honda-accord",
+        "bodyType": "Sedan"
       },
       {
         "name": "Acura",
         "slug": "honda-acura"
       },
       {
+        "name": "CR-V",
+        "slug": "honda-cr-v",
+        "bodyType": "SUV"
+      },
+      {
         "name": "City",
-        "slug": "honda-city"
+        "slug": "honda-city",
+        "bodyType": "Sedan"
       },
       {
         "name": "Civic",
-        "slug": "honda-civic"
+        "slug": "honda-civic",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Cr-V",
@@ -1568,6 +1810,11 @@ const CAR_DATA = {
       {
         "name": "Cr-Z",
         "slug": "honda-cr-z"
+      },
+      {
+        "name": "HR-V",
+        "slug": "honda-hr-v",
+        "bodyType": "SUV"
       },
       {
         "name": "Honda",
@@ -1579,7 +1826,8 @@ const CAR_DATA = {
       },
       {
         "name": "Jazz",
-        "slug": "honda-jazz"
+        "slug": "honda-jazz",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Legend",
@@ -1609,7 +1857,8 @@ const CAR_DATA = {
       },
       {
         "name": "I10",
-        "slug": "hyundai-i10"
+        "slug": "hyundai-i10",
+        "bodyType": "Hatchback"
       },
       {
         "name": "20",
@@ -1617,7 +1866,18 @@ const CAR_DATA = {
       },
       {
         "name": "I20",
-        "slug": "hyundai-i20"
+        "slug": "hyundai-i20",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "I20 Active",
+        "slug": "hyundai-i20-active",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "I20 Troy",
+        "slug": "hyundai-i20-troy",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Ix20",
@@ -1625,15 +1885,18 @@ const CAR_DATA = {
       },
       {
         "name": "I30",
-        "slug": "hyundai-i30"
+        "slug": "hyundai-i30",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Ix35",
-        "slug": "hyundai-ix35"
+        "slug": "hyundai-ix35",
+        "bodyType": "SUV"
       },
       {
         "name": "I40",
-        "slug": "hyundai-i40"
+        "slug": "hyundai-i40",
+        "bodyType": "Sedan"
       },
       {
         "name": "Ix55",
@@ -1648,12 +1911,23 @@ const CAR_DATA = {
         "slug": "hyundai-accent"
       },
       {
+        "name": "Accent Blue",
+        "slug": "hyundai-accent-blue",
+        "bodyType": "Sedan"
+      },
+      {
+        "name": "Accent Era",
+        "slug": "hyundai-accent-era",
+        "bodyType": "Sedan"
+      },
+      {
         "name": "Atos",
         "slug": "hyundai-atos"
       },
       {
         "name": "Bayon",
-        "slug": "hyundai-bayon"
+        "slug": "hyundai-bayon",
+        "bodyType": "SUV"
       },
       {
         "name": "Coupe",
@@ -1661,7 +1935,8 @@ const CAR_DATA = {
       },
       {
         "name": "Elantra",
-        "slug": "hyundai-elantra"
+        "slug": "hyundai-elantra",
+        "bodyType": "Sedan"
       },
       {
         "name": "Equus",
@@ -1673,7 +1948,8 @@ const CAR_DATA = {
       },
       {
         "name": "Getz",
-        "slug": "hyundai-getz"
+        "slug": "hyundai-getz",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Grandeur",
@@ -1685,15 +1961,18 @@ const CAR_DATA = {
       },
       {
         "name": "Ioniq",
-        "slug": "hyundai-ioniq"
+        "slug": "hyundai-ioniq",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Kona",
-        "slug": "hyundai-kona"
+        "slug": "hyundai-kona",
+        "bodyType": "SUV"
       },
       {
         "name": "Matrix",
-        "slug": "hyundai-matrix"
+        "slug": "hyundai-matrix",
+        "bodyType": "MPV"
       },
       {
         "name": "Santa Fe",
@@ -1708,16 +1987,44 @@ const CAR_DATA = {
         "slug": "hyundai-starex"
       },
       {
+        "name": "Staria",
+        "slug": "hyundai-staria",
+        "bodyType": "Kombivan"
+      },
+      {
         "name": "Strex",
         "slug": "hyundai-strex"
       },
       {
         "name": "Tucson",
-        "slug": "hyundai-tucson"
+        "slug": "hyundai-tucson",
+        "bodyType": "SUV"
       },
       {
         "name": "Veracruz",
         "slug": "hyundai-veracruz"
+      }
+    ]
+  },
+  "isuzu": {
+    "brandName": "Isuzu",
+    "brandSlug": "isuzu",
+    "models": [
+      {
+        "name": "D-Max",
+        "slug": "isuzu-d-max",
+        "bodyType": "Pick-Up"
+      }
+    ]
+  },
+  "jaecoo": {
+    "brandName": "Jaecoo",
+    "brandSlug": "jaecoo",
+    "models": [
+      {
+        "name": "Jaecoo 7",
+        "slug": "jaecoo-jaecoo-7",
+        "bodyType": "SUV"
       }
     ]
   },
@@ -1783,6 +2090,42 @@ const CAR_DATA = {
       }
     ]
   },
+  "jeep": {
+    "brandName": "Jeep",
+    "brandSlug": "jeep",
+    "models": [
+      {
+        "name": "Avenger",
+        "slug": "jeep-avenger",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Cherokee",
+        "slug": "jeep-cherokee",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Compass",
+        "slug": "jeep-compass",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Grand Cherokee",
+        "slug": "jeep-grand-cherokee",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Renegade",
+        "slug": "jeep-renegade",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Wrangler Rubicon",
+        "slug": "jeep-wrangler-rubicon",
+        "bodyType": "SUV"
+      }
+    ]
+  },
   "kia": {
     "brandName": "Kia",
     "brandSlug": "kia",
@@ -1801,11 +2144,13 @@ const CAR_DATA = {
       },
       {
         "name": "Ceed",
-        "slug": "kia-ceed"
+        "slug": "kia-ceed",
+        "bodyType": "Station Wagon"
       },
       {
         "name": "Cerato",
-        "slug": "kia-cerato"
+        "slug": "kia-cerato",
+        "bodyType": "Sedan"
       },
       {
         "name": "Magentis",
@@ -1825,7 +2170,8 @@ const CAR_DATA = {
       },
       {
         "name": "Picanto",
-        "slug": "kia-picanto"
+        "slug": "kia-picanto",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Pregio",
@@ -1837,7 +2183,8 @@ const CAR_DATA = {
       },
       {
         "name": "Rio",
-        "slug": "kia-rio"
+        "slug": "kia-rio",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Sorento",
@@ -1845,11 +2192,13 @@ const CAR_DATA = {
       },
       {
         "name": "Soul",
-        "slug": "kia-soul"
+        "slug": "kia-soul",
+        "bodyType": "SUV"
       },
       {
         "name": "Sportage",
-        "slug": "kia-sportage"
+        "slug": "kia-sportage",
+        "bodyType": "SUV"
       },
       {
         "name": "Stinger",
@@ -1857,7 +2206,8 @@ const CAR_DATA = {
       },
       {
         "name": "Stonic",
-        "slug": "kia-stonic"
+        "slug": "kia-stonic",
+        "bodyType": "SUV"
       },
       {
         "name": "Venga",
@@ -2071,6 +2421,22 @@ const CAR_DATA = {
       }
     ]
   },
+  "mg": {
+    "brandName": "MG",
+    "brandSlug": "mg",
+    "models": [
+      {
+        "name": "HS",
+        "slug": "mg-hs",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "ZS",
+        "slug": "mg-zs",
+        "bodyType": "SUV"
+      }
+    ]
+  },
   "maserati": {
     "brandName": "Maserati",
     "brandSlug": "maserati",
@@ -2123,7 +2489,13 @@ const CAR_DATA = {
       },
       {
         "name": "3",
-        "slug": "mazda-3"
+        "slug": "mazda-3",
+        "bodyType": "Sedan"
+      },
+      {
+        "name": "CX-3",
+        "slug": "mazda-cx-3",
+        "bodyType": "SUV"
       },
       {
         "name": "Cx-3",
@@ -2147,7 +2519,8 @@ const CAR_DATA = {
       },
       {
         "name": "6",
-        "slug": "mazda-6"
+        "slug": "mazda-6",
+        "bodyType": "Sedan"
       },
       {
         "name": "Rx-8",
@@ -2764,8 +3137,33 @@ const CAR_DATA = {
         "slug": "mercedes-benz-sl-600"
       },
       {
+        "name": "A",
+        "slug": "mercedes-benz-a",
+        "bodyType": "Sedan"
+      },
+      {
         "name": "AMG GT",
         "slug": "mercedes-benz-amg-gt"
+      },
+      {
+        "name": "B",
+        "slug": "mercedes-benz-b",
+        "bodyType": "MPV"
+      },
+      {
+        "name": "C",
+        "slug": "mercedes-benz-c",
+        "bodyType": "Coupe"
+      },
+      {
+        "name": "CLA",
+        "slug": "mercedes-benz-cla",
+        "bodyType": "Coupe"
+      },
+      {
+        "name": "CLS",
+        "slug": "mercedes-benz-cls",
+        "bodyType": "Coupe"
       },
       {
         "name": "Citan",
@@ -2776,8 +3174,43 @@ const CAR_DATA = {
         "slug": "mercedes-benz-clc"
       },
       {
+        "name": "E",
+        "slug": "mercedes-benz-e",
+        "bodyType": "Sedan"
+      },
+      {
         "name": "Eqv",
         "slug": "mercedes-benz-eqv"
+      },
+      {
+        "name": "G",
+        "slug": "mercedes-benz-g",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "GL",
+        "slug": "mercedes-benz-gl",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "GLA",
+        "slug": "mercedes-benz-gla",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "GLB",
+        "slug": "mercedes-benz-glb",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "GLC",
+        "slug": "mercedes-benz-glc",
+        "bodyType": "Coupe"
+      },
+      {
+        "name": "GLK",
+        "slug": "mercedes-benz-glk",
+        "bodyType": "SUV"
       },
       {
         "name": "Glk",
@@ -2812,6 +3245,11 @@ const CAR_DATA = {
         "slug": "mercedes-benz-r"
       },
       {
+        "name": "S",
+        "slug": "mercedes-benz-s",
+        "bodyType": "Sedan"
+      },
+      {
         "name": "SLS",
         "slug": "mercedes-benz-sls"
       },
@@ -2833,7 +3271,13 @@ const CAR_DATA = {
       },
       {
         "name": "Vito",
-        "slug": "mercedes-benz-vito"
+        "slug": "mercedes-benz-vito",
+        "bodyType": "Kombivan"
+      },
+      {
+        "name": "X",
+        "slug": "mercedes-benz-x",
+        "bodyType": "Pick-Up"
       }
     ]
   },
@@ -2847,7 +3291,18 @@ const CAR_DATA = {
       },
       {
         "name": "Cooper",
-        "slug": "mini-cooper"
+        "slug": "mini-cooper",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "Cooper Clubman",
+        "slug": "mini-cooper-clubman",
+        "bodyType": "Station Wagon"
+      },
+      {
+        "name": "Cooper Countryman",
+        "slug": "mini-cooper-countryman",
+        "bodyType": "SUV"
       },
       {
         "name": "Miini",
@@ -2869,7 +3324,8 @@ const CAR_DATA = {
     "models": [
       {
         "name": "L200",
-        "slug": "mitsubishi-l200"
+        "slug": "mitsubishi-l200",
+        "bodyType": "Pick-Up"
       },
       {
         "name": "L300",
@@ -2881,7 +3337,8 @@ const CAR_DATA = {
       },
       {
         "name": "Attrage",
-        "slug": "mitsubishi-attrage"
+        "slug": "mitsubishi-attrage",
+        "bodyType": "Sedan"
       },
       {
         "name": "Colt",
@@ -2905,7 +3362,8 @@ const CAR_DATA = {
       },
       {
         "name": "Lancer",
-        "slug": "mitsubishi-lancer"
+        "slug": "mitsubishi-lancer",
+        "bodyType": "Sedan"
       },
       {
         "name": "Outlander",
@@ -2951,7 +3409,8 @@ const CAR_DATA = {
       },
       {
         "name": "Juke",
-        "slug": "nissan-juke"
+        "slug": "nissan-juke",
+        "bodyType": "SUV"
       },
       {
         "name": "Mc",
@@ -2959,7 +3418,8 @@ const CAR_DATA = {
       },
       {
         "name": "Micra",
-        "slug": "nissan-micra"
+        "slug": "nissan-micra",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Murano",
@@ -3003,7 +3463,8 @@ const CAR_DATA = {
       },
       {
         "name": "Qashqai",
-        "slug": "nissan-qashqai"
+        "slug": "nissan-qashqai",
+        "bodyType": "SUV"
       },
       {
         "name": "Sentra",
@@ -3015,7 +3476,8 @@ const CAR_DATA = {
       },
       {
         "name": "X-Trail",
-        "slug": "nissan-x-trail"
+        "slug": "nissan-x-trail",
+        "bodyType": "SUV"
       },
       {
         "name": "Z",
@@ -3041,7 +3503,8 @@ const CAR_DATA = {
       },
       {
         "name": "Astra",
-        "slug": "opel-astra"
+        "slug": "opel-astra",
+        "bodyType": "Station Wagon"
       },
       {
         "name": "Cascada",
@@ -3049,23 +3512,42 @@ const CAR_DATA = {
       },
       {
         "name": "Combo",
-        "slug": "opel-combo"
+        "slug": "opel-combo",
+        "bodyType": "Kombi"
       },
       {
         "name": "Corsa",
-        "slug": "opel-corsa"
+        "slug": "opel-corsa",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Crossland",
-        "slug": "opel-crossland"
+        "slug": "opel-crossland",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Crossland X",
+        "slug": "opel-crossland-x",
+        "bodyType": "SUV"
       },
       {
         "name": "Crosslandx",
         "slug": "opel-crosslandx"
       },
       {
+        "name": "Frontera",
+        "slug": "opel-frontera",
+        "bodyType": "SUV"
+      },
+      {
         "name": "Grandland",
-        "slug": "opel-grandland"
+        "slug": "opel-grandland",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Grandland X",
+        "slug": "opel-grandland-x",
+        "bodyType": "SUV"
       },
       {
         "name": "Gt",
@@ -3073,7 +3555,8 @@ const CAR_DATA = {
       },
       {
         "name": "Insignia",
-        "slug": "opel-insignia"
+        "slug": "opel-insignia",
+        "bodyType": "Sedan"
       },
       {
         "name": "Insigniasporttourer",
@@ -3085,7 +3568,13 @@ const CAR_DATA = {
       },
       {
         "name": "Mokka",
-        "slug": "opel-mokka"
+        "slug": "opel-mokka",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Mokka X",
+        "slug": "opel-mokka-x",
+        "bodyType": "SUV"
       },
       {
         "name": "Movano",
@@ -3101,7 +3590,8 @@ const CAR_DATA = {
       },
       {
         "name": "Vectra",
-        "slug": "opel-vectra"
+        "slug": "opel-vectra",
+        "bodyType": "Sedan"
       },
       {
         "name": "Vivaro",
@@ -3109,7 +3599,8 @@ const CAR_DATA = {
       },
       {
         "name": "Zafira",
-        "slug": "opel-zafira"
+        "slug": "opel-zafira",
+        "bodyType": "Kombivan"
       }
     ]
   },
@@ -3127,7 +3618,8 @@ const CAR_DATA = {
       },
       {
         "name": "107",
-        "slug": "peugeot-107"
+        "slug": "peugeot-107",
+        "bodyType": "Hatchback"
       },
       {
         "name": "206",
@@ -3135,11 +3627,18 @@ const CAR_DATA = {
       },
       {
         "name": "207",
-        "slug": "peugeot-207"
+        "slug": "peugeot-207",
+        "bodyType": "Hatchback"
       },
       {
         "name": "208",
-        "slug": "peugeot-208"
+        "slug": "peugeot-208",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "301",
+        "slug": "peugeot-301",
+        "bodyType": "Sedan"
       },
       {
         "name": "307",
@@ -3147,11 +3646,18 @@ const CAR_DATA = {
       },
       {
         "name": "308",
-        "slug": "peugeot-308"
+        "slug": "peugeot-308",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "408",
+        "slug": "peugeot-408",
+        "bodyType": "SUV"
       },
       {
         "name": "508",
-        "slug": "peugeot-508"
+        "slug": "peugeot-508",
+        "bodyType": "Sedan"
       },
       {
         "name": "607",
@@ -3159,7 +3665,8 @@ const CAR_DATA = {
       },
       {
         "name": "2008",
-        "slug": "peugeot-2008"
+        "slug": "peugeot-2008",
+        "bodyType": "SUV"
       },
       {
         "name": "E-2008",
@@ -3167,7 +3674,8 @@ const CAR_DATA = {
       },
       {
         "name": "3008",
-        "slug": "peugeot-3008"
+        "slug": "peugeot-3008",
+        "bodyType": "SUV"
       },
       {
         "name": "3008Activelife",
@@ -3179,7 +3687,8 @@ const CAR_DATA = {
       },
       {
         "name": "5008",
-        "slug": "peugeot-5008"
+        "slug": "peugeot-5008",
+        "bodyType": "MPV"
       },
       {
         "name": "Access",
@@ -3334,6 +3843,11 @@ const CAR_DATA = {
         "slug": "peugeot-partner"
       },
       {
+        "name": "Partner Tepee",
+        "slug": "peugeot-partner-tepee",
+        "bodyType": "Kombi"
+      },
+      {
         "name": "Pop",
         "slug": "peugeot-pop"
       },
@@ -3350,6 +3864,11 @@ const CAR_DATA = {
         "slug": "peugeot-quicksilver"
       },
       {
+        "name": "RCZ",
+        "slug": "peugeot-rcz",
+        "bodyType": "Coupe"
+      },
+      {
         "name": "Rc",
         "slug": "peugeot-rc"
       },
@@ -3359,7 +3878,8 @@ const CAR_DATA = {
       },
       {
         "name": "Rifter",
-        "slug": "peugeot-rifter"
+        "slug": "peugeot-rifter",
+        "bodyType": "Kombi"
       },
       {
         "name": "Roland",
@@ -3490,16 +4010,28 @@ const CAR_DATA = {
         "slug": "renault-alpine"
       },
       {
+        "name": "Austral",
+        "slug": "renault-austral",
+        "bodyType": "SUV"
+      },
+      {
         "name": "C",
         "slug": "renault-c"
       },
       {
         "name": "Captur",
-        "slug": "renault-captur"
+        "slug": "renault-captur",
+        "bodyType": "SUV"
       },
       {
         "name": "Clio",
-        "slug": "renault-clio"
+        "slug": "renault-clio",
+        "bodyType": "Sedan"
+      },
+      {
+        "name": "Duster",
+        "slug": "renault-duster",
+        "bodyType": "SUV"
       },
       {
         "name": "Espace",
@@ -3507,11 +4039,13 @@ const CAR_DATA = {
       },
       {
         "name": "Express",
-        "slug": "renault-express"
+        "slug": "renault-express",
+        "bodyType": "Kombi"
       },
       {
         "name": "Fluence",
-        "slug": "renault-fluence"
+        "slug": "renault-fluence",
+        "bodyType": "Sedan"
       },
       {
         "name": "Grand Espace",
@@ -3523,15 +4057,23 @@ const CAR_DATA = {
       },
       {
         "name": "Grand Scenic",
-        "slug": "renault-grand-scenic"
+        "slug": "renault-grand-scenic",
+        "bodyType": "MPV"
       },
       {
         "name": "Kadjar",
-        "slug": "renault-kadjar"
+        "slug": "renault-kadjar",
+        "bodyType": "SUV"
       },
       {
         "name": "Kangoo",
-        "slug": "renault-kangoo"
+        "slug": "renault-kangoo",
+        "bodyType": "Kombi"
+      },
+      {
+        "name": "Kangoo Multix",
+        "slug": "renault-kangoo-multix",
+        "bodyType": "Kombi"
       },
       {
         "name": "Kangooexpressfrigomaxi",
@@ -3539,7 +4081,8 @@ const CAR_DATA = {
       },
       {
         "name": "Koleos",
-        "slug": "renault-koleos"
+        "slug": "renault-koleos",
+        "bodyType": "SUV"
       },
       {
         "name": "Laguna",
@@ -3547,7 +4090,8 @@ const CAR_DATA = {
       },
       {
         "name": "Latitude",
-        "slug": "renault-latitude"
+        "slug": "renault-latitude",
+        "bodyType": "Sedan"
       },
       {
         "name": "Latitute",
@@ -3559,7 +4103,8 @@ const CAR_DATA = {
       },
       {
         "name": "Megane",
-        "slug": "renault-megane"
+        "slug": "renault-megane",
+        "bodyType": "Coupe"
       },
       {
         "name": "Modus",
@@ -3567,15 +4112,18 @@ const CAR_DATA = {
       },
       {
         "name": "Scenic",
-        "slug": "renault-scenic"
+        "slug": "renault-scenic",
+        "bodyType": "MPV"
       },
       {
         "name": "Symbol",
-        "slug": "renault-symbol"
+        "slug": "renault-symbol",
+        "bodyType": "Sedan"
       },
       {
         "name": "Taliant",
-        "slug": "renault-taliant"
+        "slug": "renault-taliant",
+        "bodyType": "Sedan"
       },
       {
         "name": "Talisman",
@@ -3583,7 +4131,8 @@ const CAR_DATA = {
       },
       {
         "name": "Trafic",
-        "slug": "renault-trafic"
+        "slug": "renault-trafic",
+        "bodyType": "Kombi"
       },
       {
         "name": "Traficmultix",
@@ -3599,37 +4148,75 @@ const CAR_DATA = {
       }
     ]
   },
+  "seat": {
+    "brandName": "Seat",
+    "brandSlug": "seat",
+    "models": [
+      {
+        "name": "Arona",
+        "slug": "seat-arona",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Ateca",
+        "slug": "seat-ateca",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Cordoba",
+        "slug": "seat-cordoba",
+        "bodyType": "Sedan"
+      },
+      {
+        "name": "Ibiza",
+        "slug": "seat-ibiza",
+        "bodyType": "Coupe"
+      },
+      {
+        "name": "Leon",
+        "slug": "seat-leon",
+        "bodyType": "Station Wagon"
+      }
+    ]
+  },
   "skoda": {
     "brandName": "Skoda",
     "brandSlug": "skoda",
     "models": [
       {
         "name": "Citigo",
-        "slug": "skoda-citigo"
+        "slug": "skoda-citigo",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Fabia",
-        "slug": "skoda-fabia"
+        "slug": "skoda-fabia",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Kamiq",
-        "slug": "skoda-kamiq"
+        "slug": "skoda-kamiq",
+        "bodyType": "SUV"
       },
       {
         "name": "Karoq",
-        "slug": "skoda-karoq"
+        "slug": "skoda-karoq",
+        "bodyType": "SUV"
       },
       {
         "name": "Kodiaq",
-        "slug": "skoda-kodiaq"
+        "slug": "skoda-kodiaq",
+        "bodyType": "SUV"
       },
       {
         "name": "Octavia",
-        "slug": "skoda-octavia"
+        "slug": "skoda-octavia",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Rapid",
-        "slug": "skoda-rapid"
+        "slug": "skoda-rapid",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Roomster",
@@ -3637,20 +4224,23 @@ const CAR_DATA = {
       },
       {
         "name": "Scala",
-        "slug": "skoda-scala"
+        "slug": "skoda-scala",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Superb",
-        "slug": "skoda-superb"
+        "slug": "skoda-superb",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Yeti",
-        "slug": "skoda-yeti"
+        "slug": "skoda-yeti",
+        "bodyType": "SUV"
       }
     ]
   },
   "ssangyong": {
-    "brandName": "SsangYong",
+    "brandName": "SsangYong (KGM)",
     "brandSlug": "ssangyong",
     "models": [
       {
@@ -3668,6 +4258,11 @@ const CAR_DATA = {
       {
         "name": "Musso",
         "slug": "ssangyong-musso"
+      },
+      {
+        "name": "Musso Grand",
+        "slug": "ssangyong-musso-grand",
+        "bodyType": "Pick-Up"
       },
       {
         "name": "Rexton",
@@ -3747,7 +4342,8 @@ const CAR_DATA = {
       },
       {
         "name": "Baleno",
-        "slug": "suzuki-baleno"
+        "slug": "suzuki-baleno",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Celerio",
@@ -3775,11 +4371,13 @@ const CAR_DATA = {
       },
       {
         "name": "Swift",
-        "slug": "suzuki-swift"
+        "slug": "suzuki-swift",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Vitara",
-        "slug": "suzuki-vitara"
+        "slug": "suzuki-vitara",
+        "bodyType": "SUV"
       }
     ]
   },
@@ -3792,8 +4390,24 @@ const CAR_DATA = {
         "slug": "tesla-model"
       },
       {
+        "name": "Model Y",
+        "slug": "tesla-model-y",
+        "bodyType": "SUV"
+      },
+      {
         "name": "Roadster",
         "slug": "tesla-roadster"
+      }
+    ]
+  },
+  "togg": {
+    "brandName": "Togg",
+    "brandSlug": "togg",
+    "models": [
+      {
+        "name": "T10X",
+        "slug": "togg-t10x",
+        "bodyType": "SUV"
       }
     ]
   },
@@ -3811,11 +4425,17 @@ const CAR_DATA = {
       },
       {
         "name": "Auris",
-        "slug": "toyota-auris"
+        "slug": "toyota-auris",
+        "bodyType": "Station Wagon"
       },
       {
         "name": "Avensis",
         "slug": "toyota-avensis"
+      },
+      {
+        "name": "C-HR",
+        "slug": "toyota-c-hr",
+        "bodyType": "SUV"
       },
       {
         "name": "C-Hr",
@@ -3827,7 +4447,8 @@ const CAR_DATA = {
       },
       {
         "name": "Corolla",
-        "slug": "toyota-corolla"
+        "slug": "toyota-corolla",
+        "bodyType": "SUV"
       },
       {
         "name": "Fj",
@@ -3836,6 +4457,11 @@ const CAR_DATA = {
       {
         "name": "Fortuner",
         "slug": "toyota-fortuner"
+      },
+      {
+        "name": "Hi-Lux",
+        "slug": "toyota-hi-lux",
+        "bodyType": "Pick-Up"
       },
       {
         "name": "Hiace",
@@ -3870,6 +4496,16 @@ const CAR_DATA = {
         "slug": "toyota-proace"
       },
       {
+        "name": "Proace City",
+        "slug": "toyota-proace-city",
+        "bodyType": "Kombi"
+      },
+      {
+        "name": "Proace Verso",
+        "slug": "toyota-proace-verso",
+        "bodyType": "Kombivan"
+      },
+      {
         "name": "Rav",
         "slug": "toyota-rav"
       },
@@ -3899,7 +4535,8 @@ const CAR_DATA = {
       },
       {
         "name": "Yaris",
-        "slug": "toyota-yaris"
+        "slug": "toyota-yaris",
+        "bodyType": "Hatchback"
       }
     ]
   },
@@ -3917,19 +4554,27 @@ const CAR_DATA = {
       },
       {
         "name": "Amarok",
-        "slug": "volkswagen-amarok"
+        "slug": "volkswagen-amarok",
+        "bodyType": "Pick-Up"
       },
       {
         "name": "Arteon",
-        "slug": "volkswagen-arteon"
+        "slug": "volkswagen-arteon",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Beetle",
-        "slug": "volkswagen-beetle"
+        "slug": "volkswagen-beetle",
+        "bodyType": "Hatchback"
       },
       {
         "name": "C",
         "slug": "volkswagen-c"
+      },
+      {
+        "name": "CC",
+        "slug": "volkswagen-cc",
+        "bodyType": "Coupe"
       },
       {
         "name": "CVolt",
@@ -3937,7 +4582,8 @@ const CAR_DATA = {
       },
       {
         "name": "Caddy",
-        "slug": "volkswagen-caddy"
+        "slug": "volkswagen-caddy",
+        "bodyType": "Kombi"
       },
       {
         "name": "Caravelle",
@@ -3965,11 +4611,13 @@ const CAR_DATA = {
       },
       {
         "name": "Golf",
-        "slug": "volkswagen-golf"
+        "slug": "volkswagen-golf",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Jetta",
-        "slug": "volkswagen-jetta"
+        "slug": "volkswagen-jetta",
+        "bodyType": "Sedan"
       },
       {
         "name": "Lt",
@@ -3989,7 +4637,13 @@ const CAR_DATA = {
       },
       {
         "name": "Passat",
-        "slug": "volkswagen-passat"
+        "slug": "volkswagen-passat",
+        "bodyType": "Sedan"
+      },
+      {
+        "name": "Passat Variant",
+        "slug": "volkswagen-passat-variant",
+        "bodyType": "Station Wagon"
       },
       {
         "name": "Phaeton",
@@ -3997,7 +4651,8 @@ const CAR_DATA = {
       },
       {
         "name": "Polo",
-        "slug": "volkswagen-polo"
+        "slug": "volkswagen-polo",
+        "bodyType": "Hatchback"
       },
       {
         "name": "Rabbit",
@@ -4005,15 +4660,32 @@ const CAR_DATA = {
       },
       {
         "name": "Scirocco",
-        "slug": "volkswagen-scirocco"
+        "slug": "volkswagen-scirocco",
+        "bodyType": "Coupe"
+      },
+      {
+        "name": "T-Cross",
+        "slug": "volkswagen-t-cross",
+        "bodyType": "SUV"
       },
       {
         "name": "T-Roc",
-        "slug": "volkswagen-t-roc"
+        "slug": "volkswagen-t-roc",
+        "bodyType": "SUV"
       },
       {
         "name": "TPorter",
         "slug": "volkswagen-tporter"
+      },
+      {
+        "name": "Taigo",
+        "slug": "volkswagen-taigo",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Tayron",
+        "slug": "volkswagen-tayron",
+        "bodyType": "SUV"
       },
       {
         "name": "The",
@@ -4021,7 +4693,13 @@ const CAR_DATA = {
       },
       {
         "name": "Tiguan",
-        "slug": "volkswagen-tiguan"
+        "slug": "volkswagen-tiguan",
+        "bodyType": "SUV"
+      },
+      {
+        "name": "Tiguan AllSpace",
+        "slug": "volkswagen-tiguan-allspace",
+        "bodyType": "SUV"
       },
       {
         "name": "Tiguanallspace",
@@ -4029,7 +4707,8 @@ const CAR_DATA = {
       },
       {
         "name": "Touareg",
-        "slug": "volkswagen-touareg"
+        "slug": "volkswagen-touareg",
+        "bodyType": "SUV"
       },
       {
         "name": "Touraeg",
@@ -4045,7 +4724,8 @@ const CAR_DATA = {
       },
       {
         "name": "Transporter",
-        "slug": "volkswagen-transporter"
+        "slug": "volkswagen-transporter",
+        "bodyType": "Kombivan"
       },
       {
         "name": "Transportercamlivan",
@@ -4066,12 +4746,28 @@ const CAR_DATA = {
         "slug": "volvo-c30"
       },
       {
+        "name": "EX40",
+        "slug": "volvo-ex40",
+        "bodyType": "SUV"
+      },
+      {
         "name": "S40",
         "slug": "volvo-s40"
       },
       {
         "name": "V40",
-        "slug": "volvo-v40"
+        "slug": "volvo-v40",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "V40 Cross Country",
+        "slug": "volvo-v40-cross-country",
+        "bodyType": "Hatchback"
+      },
+      {
+        "name": "XC40",
+        "slug": "volvo-xc40",
+        "bodyType": "SUV"
       },
       {
         "name": "Xc40",
@@ -4083,11 +4779,17 @@ const CAR_DATA = {
       },
       {
         "name": "S60",
-        "slug": "volvo-s60"
+        "slug": "volvo-s60",
+        "bodyType": "Sedan"
       },
       {
         "name": "V60",
         "slug": "volvo-v60"
+      },
+      {
+        "name": "XC60",
+        "slug": "volvo-xc60",
+        "bodyType": "SUV"
       },
       {
         "name": "Xc60",
@@ -4107,15 +4809,22 @@ const CAR_DATA = {
       },
       {
         "name": "S80",
-        "slug": "volvo-s80"
+        "slug": "volvo-s80",
+        "bodyType": "Sedan"
       },
       {
         "name": "S90",
-        "slug": "volvo-s90"
+        "slug": "volvo-s90",
+        "bodyType": "Sedan"
       },
       {
         "name": "V90",
         "slug": "volvo-v90"
+      },
+      {
+        "name": "XC90",
+        "slug": "volvo-xc90",
+        "bodyType": "SUV"
       },
       {
         "name": "Xc90",
