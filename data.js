@@ -949,12 +949,12 @@ const CAR_DATA = {
     "brandSlug": "chrysler",
     "models": [
       {
-        "name": "300C",
-        "slug": "chrysler-300c"
+        "name": "300",
+        "slug": "chrysler-300"
       },
       {
-        "name": "C",
-        "slug": "chrysler-c"
+        "name": "300C",
+        "slug": "chrysler-300c"
       },
       {
         "name": "Crossfire",
@@ -1271,12 +1271,36 @@ const CAR_DATA = {
         "slug": "ferrari-sf90"
       },
       {
-        "name": "California",
-        "slug": "ferrari-california"
+        "name": "360",
+        "slug": "ferrari-360"
       },
       {
-        "name": "Challange",
-        "slug": "ferrari-challange"
+        "name": "458",
+        "slug": "ferrari-458"
+      },
+      {
+        "name": "488",
+        "slug": "ferrari-488"
+      },
+      {
+        "name": "575",
+        "slug": "ferrari-575"
+      },
+      {
+        "name": "599",
+        "slug": "ferrari-599"
+      },
+      {
+        "name": "612",
+        "slug": "ferrari-612"
+      },
+      {
+        "name": "812",
+        "slug": "ferrari-812"
+      },
+      {
+        "name": "California",
+        "slug": "ferrari-california"
       },
       {
         "name": "F",
@@ -1287,26 +1311,6 @@ const CAR_DATA = {
         "slug": "ferrari-ff"
       },
       {
-        "name": "Gtb",
-        "slug": "ferrari-gtb"
-      },
-      {
-        "name": "Gts",
-        "slug": "ferrari-gts"
-      },
-      {
-        "name": "Italia",
-        "slug": "ferrari-italia"
-      },
-      {
-        "name": "Maranello",
-        "slug": "ferrari-maranello"
-      },
-      {
-        "name": "Pista",
-        "slug": "ferrari-pista"
-      },
-      {
         "name": "Portofino",
         "slug": "ferrari-portofino"
       },
@@ -1315,24 +1319,8 @@ const CAR_DATA = {
         "slug": "ferrari-roma"
       },
       {
-        "name": "Scaglietti",
-        "slug": "ferrari-scaglietti"
-      },
-      {
         "name": "Sf",
         "slug": "ferrari-sf"
-      },
-      {
-        "name": "Speciale",
-        "slug": "ferrari-speciale"
-      },
-      {
-        "name": "Spider",
-        "slug": "ferrari-spider"
-      },
-      {
-        "name": "Superfast",
-        "slug": "ferrari-superfast"
       }
     ]
   },
@@ -1340,6 +1328,10 @@ const CAR_DATA = {
     "brandName": "Fiat",
     "brandSlug": "fiat",
     "models": [
+      {
+        "name": "124",
+        "slug": "fiat-124"
+      },
       {
         "name": "500",
         "slug": "fiat-500",
@@ -1373,24 +1365,12 @@ const CAR_DATA = {
         "bodyType": "Sedan"
       },
       {
-        "name": "Anniversario",
-        "slug": "fiat-anniversario"
+        "name": "Brava",
+        "slug": "fiat-brava"
       },
       {
         "name": "Bravo",
         "slug": "fiat-bravo"
-      },
-      {
-        "name": "C",
-        "slug": "fiat-c"
-      },
-      {
-        "name": "Collezione",
-        "slug": "fiat-collezione"
-      },
-      {
-        "name": "Cult",
-        "slug": "fiat-cult"
       },
       {
         "name": "Doblo Combi",
@@ -1398,16 +1378,8 @@ const CAR_DATA = {
         "bodyType": "Kombi"
       },
       {
-        "name": "Dolcevita",
-        "slug": "fiat-dolcevita"
-      },
-      {
         "name": "Ducato",
         "slug": "fiat-ducato"
-      },
-      {
-        "name": "E",
-        "slug": "fiat-e"
       },
       {
         "name": "Egea",
@@ -1436,10 +1408,6 @@ const CAR_DATA = {
         "slug": "fiat-gpunto"
       },
       {
-        "name": "Gq",
-        "slug": "fiat-gq"
-      },
-      {
         "name": "Grande",
         "slug": "fiat-grande"
       },
@@ -1453,29 +1421,21 @@ const CAR_DATA = {
         "bodyType": "Sedan"
       },
       {
-        "name": "Lounge",
-        "slug": "fiat-lounge"
+        "name": "Marea",
+        "slug": "fiat-marea"
+      },
+      {
+        "name": "Palio",
+        "slug": "fiat-palio"
       },
       {
         "name": "Panda",
         "slug": "fiat-panda"
       },
       {
-        "name": "Pop",
-        "slug": "fiat-pop"
-      },
-      {
-        "name": "Popstar",
-        "slug": "fiat-popstar"
-      },
-      {
         "name": "Punto",
         "slug": "fiat-punto",
         "bodyType": "Hatchback"
-      },
-      {
-        "name": "Rockstar",
-        "slug": "fiat-rockstar"
       },
       {
         "name": "Scudo",
@@ -1487,20 +1447,16 @@ const CAR_DATA = {
         "slug": "fiat-sedici"
       },
       {
-        "name": "Spider",
-        "slug": "fiat-spider"
-      },
-      {
-        "name": "Sport",
-        "slug": "fiat-sport"
-      },
-      {
-        "name": "Star",
-        "slug": "fiat-star"
+        "name": "Siena",
+        "slug": "fiat-siena"
       },
       {
         "name": "Strada",
         "slug": "fiat-strada"
+      },
+      {
+        "name": "Tempra",
+        "slug": "fiat-tempra"
       },
       {
         "name": "Ulysse",
@@ -1508,8 +1464,8 @@ const CAR_DATA = {
         "bodyType": "Kombivan"
       },
       {
-        "name": "Vintage",
-        "slug": "fiat-vintage"
+        "name": "Uno",
+        "slug": "fiat-uno"
       }
     ]
   },
@@ -1613,6 +1569,10 @@ const CAR_DATA = {
         "slug": "ford-edge"
       },
       {
+        "name": "Escort",
+        "slug": "ford-escort"
+      },
+      {
         "name": "Fiesta",
         "slug": "ford-fiesta",
         "bodyType": "Hatchback"
@@ -1667,6 +1627,14 @@ const CAR_DATA = {
         "slug": "ford-s-max"
       },
       {
+        "name": "Scorpio",
+        "slug": "ford-scorpio"
+      },
+      {
+        "name": "Sierra",
+        "slug": "ford-sierra"
+      },
+      {
         "name": "T",
         "slug": "ford-t"
       },
@@ -1681,6 +1649,10 @@ const CAR_DATA = {
       {
         "name": "TCustomkombivan",
         "slug": "ford-tcustomkombivan"
+      },
+      {
+        "name": "Taunus",
+        "slug": "ford-taunus"
       },
       {
         "name": "Tourneo",
@@ -2219,10 +2191,32 @@ const CAR_DATA = {
       }
     ]
   },
+  "lada": {
+    "brandName": "Lada",
+    "brandSlug": "lada",
+    "models": [
+      {
+        "name": "Niva",
+        "slug": "lada-niva"
+      },
+      {
+        "name": "Samara",
+        "slug": "lada-samara"
+      },
+      {
+        "name": "Vesta",
+        "slug": "lada-vesta"
+      }
+    ]
+  },
   "lamborghini": {
     "brandName": "Lamborghini",
     "brandSlug": "lamborghini",
     "models": [
+      {
+        "name": "140",
+        "slug": "lamborghini-140"
+      },
       {
         "name": "Aventador",
         "slug": "lamborghini-aventador"
@@ -2545,30 +2539,6 @@ const CAR_DATA = {
       {
         "name": "B-2500",
         "slug": "mazda-b-2500"
-      },
-      {
-        "name": "Hb",
-        "slug": "mazda-hb"
-      },
-      {
-        "name": "Mps",
-        "slug": "mazda-mps"
-      },
-      {
-        "name": "Play",
-        "slug": "mazda-play"
-      },
-      {
-        "name": "Sedan",
-        "slug": "mazda-sedan"
-      },
-      {
-        "name": "Sport",
-        "slug": "mazda-sport"
-      },
-      {
-        "name": "Sw",
-        "slug": "mazda-sw"
       }
     ]
   },
@@ -3388,6 +3358,10 @@ const CAR_DATA = {
         "slug": "nissan-np300"
       },
       {
+        "name": "350",
+        "slug": "nissan-350"
+      },
+      {
         "name": "Almera",
         "slug": "nissan-almera"
       },
@@ -3478,10 +3452,6 @@ const CAR_DATA = {
         "name": "X-Trail",
         "slug": "nissan-x-trail",
         "bodyType": "SUV"
-      },
-      {
-        "name": "Z",
-        "slug": "nissan-z"
       }
     ]
   },
@@ -3505,6 +3475,10 @@ const CAR_DATA = {
         "name": "Astra",
         "slug": "opel-astra",
         "bodyType": "Station Wagon"
+      },
+      {
+        "name": "Calibra",
+        "slug": "opel-calibra"
       },
       {
         "name": "Cascada",
@@ -3581,6 +3555,10 @@ const CAR_DATA = {
         "slug": "opel-movano"
       },
       {
+        "name": "Omega",
+        "slug": "opel-omega"
+      },
+      {
         "name": "Signum",
         "slug": "opel-signum"
       },
@@ -3617,9 +3595,17 @@ const CAR_DATA = {
         "slug": "peugeot-experttravellerminibus91"
       },
       {
+        "name": "106",
+        "slug": "peugeot-106"
+      },
+      {
         "name": "107",
         "slug": "peugeot-107",
         "bodyType": "Hatchback"
+      },
+      {
+        "name": "205",
+        "slug": "peugeot-205"
       },
       {
         "name": "206",
@@ -3641,6 +3627,10 @@ const CAR_DATA = {
         "bodyType": "Sedan"
       },
       {
+        "name": "306",
+        "slug": "peugeot-306"
+      },
+      {
         "name": "307",
         "slug": "peugeot-307"
       },
@@ -3648,6 +3638,18 @@ const CAR_DATA = {
         "name": "308",
         "slug": "peugeot-308",
         "bodyType": "Hatchback"
+      },
+      {
+        "name": "405",
+        "slug": "peugeot-405"
+      },
+      {
+        "name": "406",
+        "slug": "peugeot-406"
+      },
+      {
+        "name": "407",
+        "slug": "peugeot-407"
       },
       {
         "name": "408",
@@ -3658,6 +3660,10 @@ const CAR_DATA = {
         "name": "508",
         "slug": "peugeot-508",
         "bodyType": "Sedan"
+      },
+      {
+        "name": "605",
+        "slug": "peugeot-605"
       },
       {
         "name": "607",
@@ -3691,40 +3697,8 @@ const CAR_DATA = {
         "bodyType": "MPV"
       },
       {
-        "name": "Access",
-        "slug": "peugeot-access"
-      },
-      {
-        "name": "Active",
-        "slug": "peugeot-active"
-      },
-      {
-        "name": "Activedrive",
-        "slug": "peugeot-activedrive"
-      },
-      {
-        "name": "Activelife",
-        "slug": "peugeot-activelife"
-      },
-      {
-        "name": "Allure",
-        "slug": "peugeot-allure"
-      },
-      {
-        "name": "Allurebusinessdynamic",
-        "slug": "peugeot-allurebusinessdynamic"
-      },
-      {
-        "name": "Allureroadtripdynamic",
-        "slug": "peugeot-allureroadtripdynamic"
-      },
-      {
         "name": "Bipper",
         "slug": "peugeot-bipper"
-      },
-      {
-        "name": "Blackline",
-        "slug": "peugeot-blackline"
       },
       {
         "name": "Boxer",
@@ -3743,100 +3717,12 @@ const CAR_DATA = {
         "slug": "peugeot-boxervandynamicplus"
       },
       {
-        "name": "Break",
-        "slug": "peugeot-break"
-      },
-      {
-        "name": "Business",
-        "slug": "peugeot-business"
-      },
-      {
-        "name": "Cc",
-        "slug": "peugeot-cc"
-      },
-      {
-        "name": "Cielo",
-        "slug": "peugeot-cielo"
-      },
-      {
-        "name": "Classic",
-        "slug": "peugeot-classic"
-      },
-      {
-        "name": "Comfort",
-        "slug": "peugeot-comfort"
-      },
-      {
-        "name": "Coupe",
-        "slug": "peugeot-coupe"
-      },
-      {
-        "name": "Designtech",
-        "slug": "peugeot-designtech"
-      },
-      {
-        "name": "Dynamic",
-        "slug": "peugeot-dynamic"
-      },
-      {
-        "name": "Envy",
-        "slug": "peugeot-envy"
-      },
-      {
-        "name": "Executive",
-        "slug": "peugeot-executive"
-      },
-      {
         "name": "Expert",
         "slug": "peugeot-expert"
       },
       {
         "name": "Experttravellerminibus",
         "slug": "peugeot-experttravellerminibus"
-      },
-      {
-        "name": "Feline",
-        "slug": "peugeot-feline"
-      },
-      {
-        "name": "Fever",
-        "slug": "peugeot-fever"
-      },
-      {
-        "name": "Generation",
-        "slug": "peugeot-generation"
-      },
-      {
-        "name": "Gt",
-        "slug": "peugeot-gt"
-      },
-      {
-        "name": "Gti",
-        "slug": "peugeot-gti"
-      },
-      {
-        "name": "Limited",
-        "slug": "peugeot-limited"
-      },
-      {
-        "name": "Millesim",
-        "slug": "peugeot-millesim"
-      },
-      {
-        "name": "Millesium",
-        "slug": "peugeot-millesium"
-      },
-      {
-        "name": "Outdoor",
-        "slug": "peugeot-outdoor"
-      },
-      {
-        "name": "Pack",
-        "slug": "peugeot-pack"
-      },
-      {
-        "name": "Panoramic",
-        "slug": "peugeot-panoramic"
       },
       {
         "name": "Partner",
@@ -3848,29 +3734,9 @@ const CAR_DATA = {
         "bodyType": "Kombi"
       },
       {
-        "name": "Pop",
-        "slug": "peugeot-pop"
-      },
-      {
-        "name": "Premium",
-        "slug": "peugeot-premium"
-      },
-      {
-        "name": "Prime",
-        "slug": "peugeot-prime"
-      },
-      {
-        "name": "Quicksilver",
-        "slug": "peugeot-quicksilver"
-      },
-      {
         "name": "RCZ",
         "slug": "peugeot-rcz",
         "bodyType": "Coupe"
-      },
-      {
-        "name": "Rc",
-        "slug": "peugeot-rc"
       },
       {
         "name": "Rcz",
@@ -3882,60 +3748,8 @@ const CAR_DATA = {
         "bodyType": "Kombi"
       },
       {
-        "name": "Roland",
-        "slug": "peugeot-roland"
-      },
-      {
-        "name": "Sedan",
-        "slug": "peugeot-sedan"
-      },
-      {
-        "name": "Signature",
-        "slug": "peugeot-signature"
-      },
-      {
-        "name": "Sportium",
-        "slug": "peugeot-sportium"
-      },
-      {
-        "name": "Style",
-        "slug": "peugeot-style"
-      },
-      {
-        "name": "Sw",
-        "slug": "peugeot-sw"
-      },
-      {
-        "name": "Techno",
-        "slug": "peugeot-techno"
-      },
-      {
         "name": "Traveller",
         "slug": "peugeot-traveller"
-      },
-      {
-        "name": "Trendy",
-        "slug": "peugeot-trendy"
-      },
-      {
-        "name": "Urban",
-        "slug": "peugeot-urban"
-      },
-      {
-        "name": "Van",
-        "slug": "peugeot-van"
-      },
-      {
-        "name": "Xr",
-        "slug": "peugeot-xr"
-      },
-      {
-        "name": "Xs",
-        "slug": "peugeot-xs"
-      },
-      {
-        "name": "Xt",
-        "slug": "peugeot-xt"
       }
     ]
   },
@@ -3954,10 +3768,6 @@ const CAR_DATA = {
       {
         "name": "Boxster",
         "slug": "porsche-boxster"
-      },
-      {
-        "name": "Car",
-        "slug": "porsche-car"
       },
       {
         "name": "Carrera",
@@ -3988,16 +3798,8 @@ const CAR_DATA = {
         "slug": "porsche-spyder"
       },
       {
-        "name": "Targa",
-        "slug": "porsche-targa"
-      },
-      {
         "name": "Taycan",
         "slug": "porsche-taycan"
-      },
-      {
-        "name": "Turbo",
-        "slug": "porsche-turbo"
       }
     ]
   },
@@ -4005,6 +3807,26 @@ const CAR_DATA = {
     "brandName": "Renault",
     "brandSlug": "renault",
     "models": [
+      {
+        "name": "9 (Broadway)",
+        "slug": "renault-9-(broadway)"
+      },
+      {
+        "name": "11",
+        "slug": "renault-11"
+      },
+      {
+        "name": "12 (Toros)",
+        "slug": "renault-12-(toros)"
+      },
+      {
+        "name": "19 (Europa)",
+        "slug": "renault-19-(europa)"
+      },
+      {
+        "name": "21 (Concorde)",
+        "slug": "renault-21-(concorde)"
+      },
       {
         "name": "Alpine",
         "slug": "renault-alpine"
@@ -4109,6 +3931,10 @@ const CAR_DATA = {
       {
         "name": "Modus",
         "slug": "renault-modus"
+      },
+      {
+        "name": "Safrane",
+        "slug": "renault-safrane"
       },
       {
         "name": "Scenic",
@@ -4397,6 +4223,36 @@ const CAR_DATA = {
       {
         "name": "Roadster",
         "slug": "tesla-roadster"
+      }
+    ]
+  },
+  "tofas": {
+    "brandName": "Tofaş",
+    "brandSlug": "tofas",
+    "models": [
+      {
+        "name": "Murat 124",
+        "slug": "tofas-murat-124"
+      },
+      {
+        "name": "Murat 131",
+        "slug": "tofas-murat-131"
+      },
+      {
+        "name": "Doğan",
+        "slug": "tofas-doğan"
+      },
+      {
+        "name": "Kartal",
+        "slug": "tofas-kartal"
+      },
+      {
+        "name": "Serçe",
+        "slug": "tofas-serçe"
+      },
+      {
+        "name": "Şahin",
+        "slug": "tofas-şahin"
       }
     ]
   },
